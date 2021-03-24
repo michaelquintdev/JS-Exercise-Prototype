@@ -112,6 +112,11 @@ function Airplane(name) {
     return `Playing with ${this.favoriteToy}`;
   }
   
+  const michael = new Baby("Michael", 78788, "Katana Blade");
+  console.log(michael);
+  michael.eat('bagel');
+  console.log(michael);
+
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
